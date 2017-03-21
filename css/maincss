@@ -24,33 +24,39 @@ section {
 header {
   position: relative;
   z-index: 100; }
-  header .navbar-inverse .navbar-nav > li > a {
-    color: white; }
-  header .icon-menu {
-    border-radius: 100%;
-    background: #f04a54;
-    padding: 7px; }
-  header span {
-    font-size: 25px; }
-  header li:hover {
-    background: #f04a54;
-    font-size: 20px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+header .icon-menu {
+  border-radius: 100%;
+  background: #f04a54;
+  padding: 7px; }
+
+header span {
+  font-size: 25px; }
+
+header li:hover {
+  background: #f04a54;
+  font-size: 20px; }
 
 /*----------------------------- Secci├│n inicio -----------------------------*/
 #inicio {
   color: white;
   background-image: url(../image/banner.jpg); }
-  #inicio .icon-buttom {
-    font-size: 40px;
-    border-radius: 100%;
-    background: #f04a54;
-    padding: 15px;
-    position: relative;
-    bottom: -100px; }
+
+.icon-buttom {
+  font-size: 40px;
+  border-radius: 100%;
+  background: #f04a54;
+  padding: 15px;
+  position: relative;
+  bottom: -100px; }
 
 /*----------------------------- Secci├│n inicio -----------------------------*/
 #about-me img {
   margin: auto; }
+
 #about-me span {
   font-size: 40px;
   color: white;
@@ -60,9 +66,10 @@ header {
 
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
-  header span {
+  header li span {
     display: none; }
+
   header img {
     width: 240px; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=maincss.map */
