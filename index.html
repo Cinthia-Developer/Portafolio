@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     
-    <body>
-          <!----------------------- Menú responsive con Bootstrap ----------------------->     
+    <body onload="init()">
+        <!----------------------- Menú responsive con Bootstrap ----------------------->     
         <header>
 	        <nav class="navbar navbar-inverse navbar-fixed-top">
 		        <div class="container">
@@ -32,16 +32,48 @@
                     
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                           <li><a href="#"><span class="icon-home"></span><br>INICIO</a></li>
-                            <li><a href="#"><span class="icon-about-me"></span><br>Sobre Mí</a></li>
-                            <li><a href="#"><span class="icon-skills"></span><br>Habilidades</a></li>
-                            <li><a href="#"><span class="icon-proyect"></span><br>Portafolio</a></li>
-                            <li><a href="#"><span class="icon-contactme"></span><br>Contáctame</a></li>
+                           <li class="nav-inicio"><a href="#" class="nav-inicio"><span class="icon-home"></span><br>INICIO</a></li>
+                            <li class="nav-about-me"><a href="#"><span class="icon-about-me"></span><br>Sobre Mí</a></li>
+                            <li class="nav-skills"><a href="#"><span class="icon-skills"></span><br>Habilidades</a></li>
+                            <li class="nav-proyects"><a href="#"><span class="icon-proyect"></span><br>Portafolio</a></li>
+                            <li class="nav-contact-me"><a href="#"><span class="icon-contactme"></span><br>Contáctame</a></li>
                         </ul>
                     </div><!--cierre de collapse-->
                 </div><!--cierre de container-->
             </nav>
         </header>
+        
+        <section id="inicio" class="visible">
+            <div class="container content">
+                <h1>CINTHIA MASHIEL</h1>
+                <h3>Front-end Developer</h3>
+                <span class="icon-buttom nav-about-me"></span>   
+            </div><!--cierre de container-->
+        </section><!--cierre de sección inicio-->
+        
+        <section id="about-me">
+            <div class="container content">
+                <h1>about masheil</h1>
+            </div><!--cierre de container-->
+        </section><!--cierre de sección about me-->
+        
+        <section id="skills">
+            <div class="container content">
+                <h1>skills masheil</h1>
+            </div><!--cierre de container-->
+        </section><!--cierre de sección skills-->
+        
+        <section id="proyects">
+            <div class="container content">
+                <h1>proyect masheil</h1>
+            </div><!--cierre de container-->
+        </section><!--cierre de sección about me-->
+        
+        <section id="contact-me">
+            <div class="container content">
+                <h1>contacme masheil</h1>
+            </div><!--cierre de container-->
+        </section><!--cierre de sección about me-->
         
         
         <!-------------- Enlace JS -------------->
