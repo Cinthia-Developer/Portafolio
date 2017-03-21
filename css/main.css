@@ -1,0 +1,9 @@
+.navbar-inverse .navbar-nav>li>a{color: white; text-align: center;}
+header .icon-menu{border-radius: 100%; background: #f04a54; padding: 7px;}
+header span{font-size: 25px;}
+header li:hover{background: #f04a54; color: black; font-size: 20px;}
+
+@media screen and (max-width:768px){
+    header li span{display: none;}
+    header img{width: 240px;}
+}

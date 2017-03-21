@@ -3,9 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>MI PORTAFOLIO</title>
         <!-------------- Script Jquery -------------->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-------------- Otros Enlaces -------------->
+        <link rel="stylesheet" href="fonts/style.css">
+        <!-------------- Favicon.ico -------------->
+        <link rel="shortcut icon" href="image/logotipo.ico" type="image/x-icon">
         <!-------------- Enlace CSS -------------->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -14,10 +18,11 @@
     <body>
           <!----------------------- Menú responsive con Bootstrap ----------------------->     
         <header>
-	        <nav class="navbar navbar-default">
+	        <nav class="navbar navbar-inverse navbar-fixed-top">
 		        <div class="container">
-			        <div class="navbar-header navbar-fixed-top">
+			        <div class="navbar-header">
                       <!--aqui contenido-->
+                      <img src="image/logo-menu.png" width="300px" alt="">
                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -27,10 +32,11 @@
                     
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Sobre Mí</a></li>
-                            <li><a href="#">Mis Habilidades</a></li>
-                            <li><a href="#">Portafolio</a></li>
-                            <li><a href="#">Contáctame</a></li>
+                           <li><a href="#"><span class="icon-home"></span><br>INICIO</a></li>
+                            <li><a href="#"><span class="icon-about-me"></span><br>Sobre Mí</a></li>
+                            <li><a href="#"><span class="icon-skills"></span><br>Habilidades</a></li>
+                            <li><a href="#"><span class="icon-proyect"></span><br>Portafolio</a></li>
+                            <li><a href="#"><span class="icon-contactme"></span><br>Contáctame</a></li>
                         </ul>
                     </div><!--cierre de collapse-->
                 </div><!--cierre de container-->
