@@ -48,7 +48,7 @@ header {
     position: relative;
     bottom: -100px; }
 
-/*----------------------------- Secci├│n inicio -----------------------------*/
+/*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me img {
   margin: auto; }
 #about-me span {
@@ -58,11 +58,44 @@ header {
   padding: 10px;
   border-radius: 100%; }
 
+/*----------------------------- Secci├│n Skills -----------------------------*/
+#skills {
+  background-image: url(../image/banner.jpg);
+  color: #f04a54; }
+  #skills .cuadro {
+    width: 150px;
+    height: 180px;
+    margin: 40px auto;
+    border: 2px solid #f04a54;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px; }
+  #skills img {
+    width: 50px;
+    height: 60px;
+    margin: 20px auto; }
+  #skills .myProgress {
+    width: 70%;
+    height: 10px;
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto; }
+  #skills .myBar {
+    background-color: #f04a54;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100px;
+    transition: all 1s; }
+
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
   header span {
     display: none; }
   header img {
-    width: 240px; } }
+    width: 240px; }
+
+  #skills .col-md-offset-1 {
+    display: inline; } }
 
 /*# sourceMappingURL=main.css.map */

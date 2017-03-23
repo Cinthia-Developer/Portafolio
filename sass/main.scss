@@ -1,0 +1,111 @@
+$centrar: center;
+$absoluto: absolute;
+$relativo: relative;
+$porcentaje: 100%;
+$colorPrincipal: #f04a54;
+$colorSecundario: white;
+$letra:40px;
+$vacio:0;
+
+/*----------------------------- Generales -----------------------------*/
+*{text-align: $centrar;}
+section{position: $absoluto; width: $porcentaje; height: $porcentaje; top: $vacio; left: $vacio; display: none; opacity: $vacio;}
+.visible{opacity:1; display: table;}
+.content{display:table-cell; vertical-align: middle;}
+
+/*----------------------------- Header -----------------------------*/
+header{
+    position: $relativo; 
+    z-index:100;
+    .navbar-inverse .navbar-nav>li>a{
+        color: $colorSecundario;
+    }
+    .icon-menu{
+        border-radius: $porcentaje;
+        background: $colorPrincipal; 
+        padding: 7px;
+    }
+    span{
+        font-size: 25px;
+    }
+    li:hover{
+        background: $colorPrincipal; 
+        font-size: 20px;
+    }
+}
+/*----------------------------- Sección inicio -----------------------------*/
+#inicio{
+    color: $colorSecundario;
+    background-image: url(../image/banner.jpg);
+    .icon-buttom{
+        font-size: $letra;
+        border-radius: $porcentaje;
+        background: $colorPrincipal; 
+        padding: 15px;
+        position: $relativo;
+        bottom: -100px;
+    }
+}
+/*----------------------------- Sección About-Me -----------------------------*/
+#about-me{
+    img{
+        margin: auto;
+    }
+    span{
+        font-size: $letra; 
+        color: $colorSecundario; 
+        background: $colorPrincipal;
+        padding: 10px; 
+        border-radius: $porcentaje;
+    }
+}
+
+/*----------------------------- Sección Skills -----------------------------*/
+#skills{
+    background-image: url(../image/banner.jpg); 
+    color: $colorPrincipal;
+    .cuadro{
+        width: 150px; 
+        height: 180px; 
+        margin: 40px auto; 
+        border: 2px solid $colorPrincipal; 
+        background: rgba(0, 0, 0, 0.7); 
+        border-radius: 20px;
+    }
+    img{
+        width: 50px;
+        height: 60px;
+        margin: 20px auto;
+    }
+    .myProgress{
+    width: 70%;
+    height: 10px;
+    position: relative;
+    background-color: $colorSecundario;
+    border-radius: 50px;
+    margin: auto;
+    }
+    .myBar{
+    background-color: $colorPrincipal;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100px;
+    transition: all 1s;
+    }
+}
+
+/*----------------------------- @media -----------------------------*/
+@media screen and (max-width:768px){
+    header{
+        span{
+            display: none;
+        }
+        img{
+            width: 240px;
+        }
+    }
+    #skills{
+        .col-md-offset-1{display: inline;}
+    }
+}
