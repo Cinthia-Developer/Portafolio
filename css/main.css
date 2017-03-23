@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*----------------------------- Generales -----------------------------*/
 * {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Kurale', serif; }
 
 section {
   position: absolute;
@@ -20,6 +21,15 @@ section {
   display: table-cell;
   vertical-align: middle; }
 
+.margin {
+  margin-top: 10%; }
+
+h1, h2 {
+  font-family: 'Risque', cursive; }
+
+h2 {
+  font-size: 40px; }
+
 /*----------------------------- Header -----------------------------*/
 header {
   position: relative;
@@ -29,7 +39,8 @@ header {
   header .icon-menu {
     border-radius: 100%;
     background: #f04a54;
-    padding: 7px; }
+    padding: 5px;
+    font-size: 20px; }
   header span {
     font-size: 25px; }
   header li:hover {
@@ -39,7 +50,13 @@ header {
 /*----------------------------- Secci├│n inicio -----------------------------*/
 #inicio {
   color: white;
-  background-image: url(../image/banner.jpg); }
+  background-image: url(../image/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #inicio h1 {
+    font-size: 80px; }
+  #inicio h3 {
+    font-size: 40px; }
   #inicio .icon-buttom {
     font-size: 40px;
     border-radius: 100%;
@@ -60,14 +77,19 @@ header {
 
 /*----------------------------- Secci├│n Skills -----------------------------*/
 #skills {
-  background-image: url(../image/banner.jpg);
-  color: #f04a54; }
+  background-image: url(../image/skills3.jpeg);
+  background-size: cover;
+  color: white; }
+  #skills .cuadro-skills {
+    background: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    height: 100%; }
   #skills .cuadro {
-    width: 150px;
-    height: 180px;
-    margin: 40px auto;
+    width: 160px;
+    height: 190px;
+    margin: 20px auto;
     border: 2px solid #f04a54;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.58);
     border-radius: 20px; }
   #skills img {
     width: 50px;
@@ -77,7 +99,7 @@ header {
     width: 70%;
     height: 10px;
     position: relative;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 50px;
     margin: auto; }
   #skills .myBar {
@@ -90,12 +112,21 @@ header {
 
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
-  header span {
-    display: none; }
-  header img {
-    width: 240px; }
+  .margin {
+    margin-top: 25%; }
 
-  #skills .col-md-offset-1 {
-    display: inline; } }
+  header img {
+    width: 200px;
+    margin-top: 1%;
+    position: absolute;
+    left: 2%; }
+
+  #inicio h1 {
+    font-size: 50px; }
+  #inicio h3 {
+    font-size: 30px; }
+
+  #skills .cuadro {
+    width: 120px; } }
 
 /*# sourceMappingURL=main.css.map */

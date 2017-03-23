@@ -7,6 +7,7 @@
         <!-------------- Script Jquery -------------->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <!-------------- Otros Enlaces -------------->
+        <link href="https://fonts.googleapis.com/css?family=Flamenco|Kurale|Lakki+Reddy|Risque" rel="stylesheet">
         <link rel="stylesheet" href="fonts/style.css">
         <!-------------- Favicon.ico -------------->
         <link rel="shortcut icon" href="image/logotipo.ico" type="image/x-icon">
@@ -54,7 +55,7 @@
         
  <!--------------------------------- sección About-Me --------------------------------->       
         <section id="about-me">
-            <div class="container content">
+            <div class="container margin">
                 <div class="row">
                     <div class="col-md-offset-1 col-md-4">
                       <img src="image/perfil.jpg" class="img-responsive" alt="">  
@@ -76,111 +77,125 @@
         
   <!--------------------------------- sección Skills --------------------------------->     
         <section id="skills">
-            <div class="container margin content">
-                <div class="row">
-                    <div class="col-md-offset-1 col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/html.png" class="img-responsive" alt="">
-                            <p>HTML</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/css.png" class="img-responsive" alt="">
-                            <p>CSS</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/js.png" class="img-responsive" alt="">
-                            <p>JAVASCRIPT</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/jquery.png" class="img-responsive" alt="">
-                            <p>JQUERY</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/sass.svg" class="img-responsive" alt="">
-                            <p>SASS</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->  
-                </div><!--cierre de primer row-->
-                
-                <div class="row">
-                    <div class="col-md-offset-1 col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/bootstrap.png" class="img-responsive" alt="">
-                            <p>BOOTSTRAP</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/github.png" class="img-responsive" alt="">
-                            <p>GITHUB</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/trello.png" class="img-responsive" alt="">
-                            <p>TRELLO</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/responsive.png" class="img-responsive" alt="">
-                            <p>RESPONSIVE DESING</p>
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                    
-                    <div class="col-md-2 col-xs-6">
-                        <div class="cuadro">
-                            <img src="image/html.png" class="img-responsive" alt="">
-                            <div class="myProgress">
-                                <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div>
-                            </div><!--cierre de myProgress-->
-                            <p></p>
-                        </div><!--cierre de cuadro-->
-                    </div><!--cierre de col-md-2-->
-                </div><!--cierre de segundo row-->
-            </div><!--cierre de container-->
+            <div class="cuadro-skills">
+                <div class="container">
+                    <div class="row margin">
+                        <h2>MIS HABILIDADES</h2><br>
+                        <div class="col-md-offset-1 col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/html.png" class="img-responsive" alt="html">
+                                <p>HTML</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 80%;"></div><br>
+                                    <span>80%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/css.png" class="img-responsive" alt="">
+                                <p>CSS</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 85%;"></div><br>
+                                    <span>85%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/js.png" class="img-responsive" alt="">
+                                <p>JAVASCRIPT</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 65%;"></div><br>
+                                    <span>65%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/jquery.png" class="img-responsive" alt="">
+                                <p>JQUERY</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 75%;"></div><br>
+                                    <span>75%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/sass.svg" class="img-responsive" alt="">
+                                <p>SASS</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 35%;"></div><br>
+                                    <span>35%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->  
+                    </div><!--cierre de primer row-->
+
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/bootstrap.png" class="img-responsive" alt="">
+                                <p>BOOTSTRAP</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div><br>
+                                    <span>70%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/github.png" class="img-responsive" alt="">
+                                <p>GITHUB</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 70%;"></div><br>
+                                    <span>70%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/trello.png" class="img-responsive" alt="">
+                                <p>TRELLO</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 75%;"></div><br>
+                                    <span>75%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/responsive.png" class="img-responsive" alt="">
+                                <p>RESPONSIVE</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 85%;"></div><br>
+                                    <span>85%</span>
+                                </div><!--cierre de myProgress-->
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="cuadro">
+                                <img src="image/html.png" class="img-responsive" alt="">
+                                <p>ANONIMO</p>
+                                <div class="myProgress">
+                                    <div id="myBar" data-per="70" class="myBar" style="width: 90%;"></div><br>
+                                    <span>90%</span>
+                                </div><!--cierre de myProgress-->
+                                <p></p>
+                            </div><!--cierre de cuadro-->
+                        </div><!--cierre de col-md-2-->
+                    </div><!--cierre de segundo row-->
+                </div><!--cierre de container-->
+            </div><!--cierre de cuadro-skills-->
         </section><!--cierre de sección skills-->
         
 <!--------------------------------- sección Proyects --------------------------------->        
