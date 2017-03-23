@@ -13,7 +13,6 @@ section{position: $absoluto; width: $porcentaje; height: $porcentaje; top: $vaci
 .visible{opacity:1; display: table;}
 .content{display:table-cell; vertical-align: middle;}
 .margin{margin-top: 10%;}
-h1, h2{font-family: 'Risque', cursive;}
 h2{font-size: 40px;}
 
 /*----------------------------- Header -----------------------------*/
@@ -51,14 +50,13 @@ header{
         background: $colorPrincipal; 
         padding: 15px;
         position: $relativo;
-        bottom: -100px;
+        bottom: -90px;
     }
 }
 /*----------------------------- Sección About-Me -----------------------------*/
 #about-me{
-    img{
-        margin: auto;
-    }
+    img{ margin: auto;}
+    .right, .left{background: rgba(255, 255, 255, 0);}
     span{
         font-size: $letra; 
         color: $colorSecundario; 
@@ -107,6 +105,9 @@ header{
     transition: all 1s;
     }
 }
+/*----------------------------- Sección Proyects -----------------------------*/
+*{outline: 1px solid red;}
+
 
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width:768px){
@@ -115,8 +116,8 @@ header{
         img{width: 200px; margin-top: 1%; position: absolute; left: 2%;}
     }
     #inicio{
-        h1{font-size: 50px;}
-        h3{font-size: 30px;}
+        h1{font-size: 35px;}
+        h3{font-size: 20px;}
     }
     #skills{
         .cuadro{width: 120px;}

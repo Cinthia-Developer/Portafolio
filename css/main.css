@@ -24,9 +24,6 @@ section {
 .margin {
   margin-top: 10%; }
 
-h1, h2 {
-  font-family: 'Risque', cursive; }
-
 h2 {
   font-size: 40px; }
 
@@ -63,11 +60,13 @@ header {
     background: #f04a54;
     padding: 15px;
     position: relative;
-    bottom: -100px; }
+    bottom: -90px; }
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me img {
   margin: auto; }
+#about-me .right, #about-me .left {
+  background: rgba(255, 255, 255, 0); }
 #about-me span {
   font-size: 40px;
   color: white;
@@ -110,6 +109,10 @@ header {
     border-radius: 100px;
     transition: all 1s; }
 
+/*----------------------------- Secci├│n Proyects -----------------------------*/
+* {
+  outline: 1px solid red; }
+
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
   .margin {
@@ -122,9 +125,9 @@ header {
     left: 2%; }
 
   #inicio h1 {
-    font-size: 50px; }
+    font-size: 35px; }
   #inicio h3 {
-    font-size: 30px; }
+    font-size: 20px; }
 
   #skills .cuadro {
     width: 120px; } }

@@ -29,9 +29,9 @@
         "code": 59653,
         "name": "linkedin"
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 8,
-      "iconIdx": 0
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -59,9 +59,69 @@
         "code": 59651,
         "name": "contactme"
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 7,
       "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M128 192l-128 128 192 192-192 192 128 128 320-320-320-320z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 448,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "chevron-right"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 4,
+        "prevSize": 32,
+        "code": 59658,
+        "name": "right"
+      },
+      "setIdx": 4,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M448 320l-128-128-320 320 320 320 128-128-192-192 192-192z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 448,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "chevron-left"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 2,
+        "id": 3,
+        "prevSize": 32,
+        "code": 59660,
+        "name": "left"
+      },
+      "setIdx": 4,
+      "setId": 5,
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -89,9 +149,9 @@
         "code": 59657,
         "name": "after"
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 5,
-      "iconIdx": 0
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -118,9 +178,9 @@
         "code": 59654,
         "name": "github"
       },
-      "setIdx": 3,
+      "setIdx": 4,
       "setId": 5,
-      "iconIdx": 1
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -146,7 +206,7 @@
         "prevSize": 32,
         "code": 59696
       },
-      "setIdx": 7,
+      "setIdx": 8,
       "setId": 1,
       "iconIdx": 48
     },
@@ -173,7 +233,7 @@
         "prevSize": 32,
         "code": 60048
       },
-      "setIdx": 7,
+      "setIdx": 8,
       "setId": 1,
       "iconIdx": 400
     },
@@ -199,7 +259,7 @@
         "prevSize": 32,
         "code": 60132
       },
-      "setIdx": 7,
+      "setIdx": 8,
       "setId": 1,
       "iconIdx": 484
     },
@@ -228,7 +288,7 @@
         "code": 59648,
         "name": "menu"
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 6,
       "iconIdx": 0
     },
@@ -263,7 +323,7 @@
         "code": 59649,
         "name": "about-me"
       },
-      "setIdx": 5,
+      "setIdx": 6,
       "setId": 3,
       "iconIdx": 0
     },
@@ -292,7 +352,7 @@
         "code": 59656,
         "name": "css3"
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 0
     },
@@ -322,7 +382,7 @@
         "code": 59655,
         "name": "buttom"
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 1
     },
@@ -352,7 +412,7 @@
         "code": 59652,
         "name": "skills"
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 3
     },
@@ -382,7 +442,7 @@
         "code": 59650,
         "name": "home"
       },
-      "setIdx": 6,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 4
     }
