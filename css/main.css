@@ -63,16 +63,21 @@ header {
     bottom: -90px; }
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
-#about-me img {
-  margin: auto; }
-#about-me .right, #about-me .left {
-  background: rgba(255, 255, 255, 0); }
-#about-me span {
-  font-size: 40px;
-  color: white;
-  background: #f04a54;
-  padding: 10px;
-  border-radius: 100%; }
+#about-me {
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #about-me img {
+    margin: auto; }
+  #about-me .right, #about-me .left {
+    background: rgba(255, 255, 255, 0); }
+  #about-me span {
+    font-size: 40px;
+    color: white;
+    background: #f04a54;
+    padding: 10px;
+    border-radius: 100%; }
+  #about-me .carousel {
+    border: 2px solid #f04a54; }
 
 /*----------------------------- Secci├│n Skills -----------------------------*/
 #skills {
@@ -110,6 +115,17 @@ header {
     transition: all 1s; }
 
 /*----------------------------- Secci├│n Proyects -----------------------------*/
+/*----------------------------- Secci├│n Contact Me -----------------------------*/
+#contact-me {
+  background-image: url(../image/contactme2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  #contact-me .sombra {
+    background: rgba(0, 0, 0, 0.76);
+    height: 100%;
+    width: 100%; }
+
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
   .margin {

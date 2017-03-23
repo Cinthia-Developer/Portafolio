@@ -56,6 +56,8 @@ header{
 }
 /*----------------------------- Sección About-Me -----------------------------*/
 #about-me{
+    background-size: cover;
+    background-repeat: no-repeat;
     img{ margin: auto;}
     .right, .left{background: rgba(255, 255, 255, 0);}
     span{
@@ -64,6 +66,9 @@ header{
         background: $colorPrincipal;
         padding: 10px; 
         border-radius: $porcentaje;
+    }
+    .carousel{
+        border: 2px solid $colorPrincipal;
     }
 }
 /*----------------------------- Sección Skills -----------------------------*/
@@ -107,7 +112,19 @@ header{
     }
 }
 /*----------------------------- Sección Proyects -----------------------------*/
-
+    
+/*----------------------------- Sección Contact Me -----------------------------*/
+#contact-me{
+    background-image: url(../image/contactme2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    .sombra{
+        background: rgba(0, 0, 0, 0.76);
+        height: $porcentaje;
+        width: $porcentaje;
+    }
+}
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width:768px){
     .margin{
