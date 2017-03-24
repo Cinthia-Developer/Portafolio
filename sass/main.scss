@@ -34,6 +34,7 @@ header{
     .navbar-inverse .navbar-nav>li>a{
         color: $colorSecundario;
     }
+    img{margin: 2%;}
     .icon-menu{
         border-radius: $porcentaje;
         background: $colorPrincipal; 
@@ -41,11 +42,10 @@ header{
         font-size: $letraMediana;
     }
     span{
-        font-size: 25px;
+        font-size: 20px;
     }
     li:hover{
-        background: $colorPrincipal; 
-        font-size: $letraMediana;
+        background: $colorPrincipal;
     }
 }
 /*----------------------------- Sección inicio -----------------------------*/
@@ -59,7 +59,9 @@ header{
     .icon-buttom{
         font-size: $letraGrande;
         padding: 15px;
+        margin: 30px;
         position: relative;
+        bottom: -100px;
     }
 }
 /*----------------------------- Sección About-Me -----------------------------*/
@@ -89,7 +91,7 @@ header{
         width: 160px; 
         height: 190px; 
         margin: 20px auto; 
-        border: 2px solid $colorPrincipal; 
+        border: 2px solid black; 
         background: rgba(0, 0, 0, 0.58); 
         border-radius: 20px;
     }
@@ -124,6 +126,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     color: $colorSecundario;
+    .margenes{
+        margin-top: 30px;
+    }
 }  
 /*----------------------------- Sección Contact Me -----------------------------*/
 #contact-me{

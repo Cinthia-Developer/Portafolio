@@ -1,5 +1,6 @@
 function init(){
     crearProyects();
+    crearProyects2();
     crearSkills();
 	currentSection = $('#inicio');
 	$('.nav-inicio').click(onClickInicio);
@@ -8,6 +9,7 @@ function init(){
     $('.nav-proyects').click(onClickProyects);
     $('.nav-contact-me').click(onClickContactMe);
 }
+
 //-- Funciones para cuando se de click pase a la siguiente pantalla ----
 function onClickInicio(){
 	nextSection('inicio');
@@ -24,6 +26,7 @@ function onClickProyects(){
 function onClickContactMe(){
 	nextSection('contact-me');
 }
+
 //-- Función que elimina .visible y crea otra para pasar a la siguiente pantalla ----
 function nextSection(_id){
 	currentSection.removeClass('visible');
@@ -54,10 +57,26 @@ function crearSkills(){
 function crearProyects(){
     var lista = $(".lista-proyects");
     for(var i in proyects){
-        var html= '<div class="col-md-4">' +
+        var html= '<div class="col-md-4 margenes">' +
+                  '<a href="' + proyects[i].name + '">' +
                   '<img src="' +  proyects[i].image + '" width="90%" heigth="60px" alt="">'+
+                  '</a>' +
                   '</div><!--cierre de col-md-4-->'   
         
         lista.append(html); 
     }
 }
+//------- Función que crea la sección de Proyectos -------
+function crearProyects2(){
+    var lista = $(".lista-proyects2");
+    for(var i in proyects2){
+        var html= '<div class="col-md-4 margenes">' +
+                  '<a href="' + proyects2[i].name + '">' +
+                  '<img src="' +  proyects2[i].image + '" width="90%" heigth="60px" alt="">'+
+                  '</a>' +
+                  '</div><!--cierre de col-md-4-->'   
+        
+        lista.append(html); 
+    }
+}
+//---

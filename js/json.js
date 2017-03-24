@@ -54,26 +54,41 @@ var skills = [
 var proyects = [
     {
          "image":"image/gato.png",
-         "name":"....."
+         "name":"https://cinthia-mashiel.github.io/Gato-loco/"
      },
      {
-         "image":"image/gato.png",
-         "name":"....."
+         "image":"image/lyft.png",
+         "name":"https://cinthia-mashiel.github.io/Lyft-jquery-2/"
      },
+     {
+         "image":"image/whatsapp.png",
+         "name":"https://cinthia-mashiel.github.io/whatsapp-web/"
+     },
+     {
+         "image":"image/creamy.png",
+         "name":"https://cinthia-mashiel.github.io/creamy-theme/"
+     },
+     {
+         "image":"image/bunny.png",
+         "name":"https://cinthia-mashiel.github.io/bunny-love/"
+     },
+     {
+         "image":"image/user.png",
+         "name":"https://cinthia-mashiel.github.io/User-Testing/"
+     }
+]
+
+var proyects2 = [
     {
-         "image":"image/gato.png",
-         "name":"....."
+         "image":"image/larepublica.png",
+         "name":"...."
      },
      {
-         "image":"image/gato.png",
-         "name":"....."
+         "image":"image/app.png",
+         "name":"https://cinthia-mashiel.github.io/lista-tareas/"
      },
      {
-         "image":"image/gato.png",
-         "name":"....."
-     },
-     {
-         "image":"image/gato.png",
-         "name":"....."
+         "image":"image/edad.png",
+         "name":"http://codepen.io/Mashiel/full/pRyJdj/"
      }
 ]

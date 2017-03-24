@@ -47,16 +47,17 @@ header {
   z-index: 100; }
   header .navbar-inverse .navbar-nav > li > a {
     color: white; }
+  header img {
+    margin: 2%; }
   header .icon-menu {
     border-radius: 100%;
     background: #f04a54;
     padding: 5px;
     font-size: 20px; }
   header span {
-    font-size: 25px; }
-  header li:hover {
-    background: #f04a54;
     font-size: 20px; }
+  header li:hover {
+    background: #f04a54; }
 
 /*----------------------------- Secci├│n inicio -----------------------------*/
 #inicio {
@@ -71,7 +72,9 @@ header {
   #inicio .icon-buttom {
     font-size: 40px;
     padding: 15px;
-    position: relative; }
+    margin: 30px;
+    position: relative;
+    bottom: -100px; }
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me {
@@ -102,7 +105,7 @@ header {
     width: 160px;
     height: 190px;
     margin: 20px auto;
-    border: 2px solid #f04a54;
+    border: 2px solid black;
     background: rgba(0, 0, 0, 0.58);
     border-radius: 20px; }
   #skills img {
@@ -132,6 +135,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   color: white; }
+  #proyects .margenes {
+    margin-top: 30px; }
 
 /*----------------------------- Secci├│n Contact Me -----------------------------*/
 #contact-me {
