@@ -1,4 +1,4 @@
-var jsonArray = [
+var skills = [
      {
          "srcImg":"image/html.png",
          "nombre":"HTML",
@@ -40,13 +40,40 @@ var jsonArray = [
          "porcentaje":"75%"
      },
      {
-         "srcImg":"img-responsive",
+         "srcImg":"image/responsive.png",
          "nombre":"RESPONSIVE",
          "porcentaje":"85%"
      },
      {
-         "srcImg":"img-responsive",
+         "srcImg":"image/jquery.png",
          "nombre":"ANONIMO",
          "porcentaje":"50%"
+     }
+]
+
+var proyects = [
+    {
+         "image":"image/gato.png",
+         "name":"....."
+     },
+     {
+         "image":"image/gato.png",
+         "name":"....."
+     },
+    {
+         "image":"image/gato.png",
+         "name":"....."
+     },
+     {
+         "image":"image/gato.png",
+         "name":"....."
+     },
+     {
+         "image":"image/gato.png",
+         "name":"....."
+     },
+     {
+         "image":"image/gato.png",
+         "name":"....."
      }
 ]
