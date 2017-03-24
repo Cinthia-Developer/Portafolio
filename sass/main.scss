@@ -13,9 +13,14 @@ $vacio:0;
 section{position: $absoluto; width: $porcentaje; height: $porcentaje; top: $vacio; left: $vacio; display: none; opacity: $vacio;}
 .visible{opacity:1; display: table;}
 .content{display:table-cell; vertical-align: middle;}
-.margin{margin-top: 10%;}
+.margin{margin-top: 8%;}
+.margin2{margin-top: 15%;}
 h2{font-size: $letraGrande;}
-
+    .sombra{
+        background: rgba(0, 0, 0, 0.67);
+        height: $porcentaje;
+        width: $porcentaje;
+    }
 /*----------------------------- Header -----------------------------*/
 header{
     position: $relativo; 
@@ -56,19 +61,15 @@ header{
 }
 /*----------------------------- Sección About-Me -----------------------------*/
 #about-me{
+    background-image: url(../image/aboutme.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    img{ margin: auto;}
+    color: white;
+    font-size: $letraMediana;
+    img{ margin: auto; width: 380px; height: 450px;}
     .right, .left{background: rgba(255, 255, 255, 0);}
-    span{
-        font-size: $letraGrande; 
-        color: $colorSecundario; 
-        background: $colorPrincipal;
-        padding: 10px; 
-        border-radius: $porcentaje;
-    }
     .carousel{
-        border: 2px solid $colorPrincipal;
+        border: 1px solid $colorPrincipal;
     }
 }
 /*----------------------------- Sección Skills -----------------------------*/
@@ -112,23 +113,49 @@ header{
     }
 }
 /*----------------------------- Sección Proyects -----------------------------*/
-    
+#proyects{
+    background-image: url(../image/aboutme.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $colorSecundario;
+}  
 /*----------------------------- Sección Contact Me -----------------------------*/
 #contact-me{
-    background-image: url(../image/contactme2.gif);
+    background-image: url(../image/contact3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    .sombra{
-        background: rgba(0, 0, 0, 0.76);
-        height: $porcentaje;
-        width: $porcentaje;
+    span{
+        box-sizing: border-box;
+        font-size: 45px; 
+        color: black; 
+        background: white;
+        padding: 25px;
+        margin:  20px;
+        border-radius: $porcentaje;
+    }
+    p{margin-top: 30px;}
+    .button{ 
+        width: 200px;
+        padding: 10px;
+        margin: auto;
+        background: $colorPrincipal;
+        border-radius: 20px; 
+        font-size: 30px;
+        &:hover{
+            background: $colorSecundario;
+            color: $colorPrincipal;
+            font-size: 40px;
+        }
     }
 }
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width:768px){
     .margin{
-        margin-top: 25%;
+        margin-top: 15%;
+    }
+    .margin2{
+        margin-top: 30%;
     }
     header{
         img{
@@ -148,6 +175,13 @@ header{
     #skills{
         .cuadro{
             width: 120px;
+        }
+    }
+    #contact-me{
+        span{
+            font-size: 30px;
+            padding: 15px;
+            margin: 10px;
         }
     }
 }

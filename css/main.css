@@ -22,10 +22,18 @@ section {
   vertical-align: middle; }
 
 .margin {
-  margin-top: 10%; }
+  margin-top: 8%; }
+
+.margin2 {
+  margin-top: 15%; }
 
 h2 {
   font-size: 40px; }
+
+.sombra {
+  background: rgba(0, 0, 0, 0.67);
+  height: 100%;
+  width: 100%; }
 
 /*----------------------------- Header -----------------------------*/
 header {
@@ -64,20 +72,19 @@ header {
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me {
+  background-image: url(../image/aboutme.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px; }
   #about-me img {
-    margin: auto; }
+    margin: auto;
+    width: 380px;
+    height: 450px; }
   #about-me .right, #about-me .left {
     background: rgba(255, 255, 255, 0); }
-  #about-me span {
-    font-size: 40px;
-    color: white;
-    background: #f04a54;
-    padding: 10px;
-    border-radius: 100%; }
   #about-me .carousel {
-    border: 2px solid #f04a54; }
+    border: 1px solid #f04a54; }
 
 /*----------------------------- Secci├│n Skills -----------------------------*/
 #skills {
@@ -115,21 +122,47 @@ header {
     transition: all 1s; }
 
 /*----------------------------- Secci├│n Proyects -----------------------------*/
-/*----------------------------- Secci├│n Contact Me -----------------------------*/
-#contact-me {
-  background-image: url(../image/contactme2.gif);
+#proyects {
+  background-image: url(../image/aboutme.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white; }
-  #contact-me .sombra {
-    background: rgba(0, 0, 0, 0.76);
-    height: 100%;
-    width: 100%; }
+
+/*----------------------------- Secci├│n Contact Me -----------------------------*/
+#contact-me {
+  background-image: url(../image/contact3.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  #contact-me span {
+    box-sizing: border-box;
+    font-size: 45px;
+    color: black;
+    background: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 100%; }
+  #contact-me p {
+    margin-top: 30px; }
+  #contact-me .button {
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    background: #f04a54;
+    border-radius: 20px;
+    font-size: 30px; }
+    #contact-me .button:hover {
+      background: white;
+      color: #f04a54;
+      font-size: 40px; }
 
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
   .margin {
-    margin-top: 25%; }
+    margin-top: 15%; }
+
+  .margin2 {
+    margin-top: 30%; }
 
   header img {
     width: 200px;
@@ -143,6 +176,11 @@ header {
     font-size: 20px; }
 
   #skills .cuadro {
-    width: 120px; } }
+    width: 120px; }
+
+  #contact-me span {
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?l0xuxc');
-  src:  url('fonts/icomoon.eot?l0xuxc#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?l0xuxc') format('truetype'),
-    url('fonts/icomoon.woff?l0xuxc') format('woff'),
-    url('fonts/icomoon.svg?l0xuxc#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7w0elp');
+  src:  url('fonts/icomoon.eot?7w0elp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7w0elp') format('truetype'),
+    url('fonts/icomoon.woff?7w0elp') format('woff'),
+    url('fonts/icomoon.svg?7w0elp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,14 +24,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail:before {
+  content: "\e90b";
+}
+.icon-about-me:before {
+  content: "\e901";
+}
 .icon-linkedin:before {
   content: "\e905";
 }
-.icon-contactme:before {
-  content: "\e903";
-}
 .icon-right:before {
   content: "\e90a";
+}
+.icon-contactme:before {
+  content: "\e903";
 }
 .icon-left:before {
   content: "\e90c";
@@ -45,41 +51,14 @@
 .icon-proyect:before {
   content: "\e930";
 }
-.icon-facebook:before {
-  content: "\ea90";
-}
-.icon-html-five:before {
-  content: "\eae4";
-}
-.icon-menu:before {
-  content: "\e900";
-}
-.icon-after:before {
-  content: "\e909";
-}
-.icon-github:before {
-  content: "\e906";
-}
-.icon-proyect:before {
-  content: "\e930";
+.icon-mobile:before {
+  content: "\e958";
 }
 .icon-facebook:before {
   content: "\ea90";
 }
-.icon-html-five:before {
-  content: "\eae4";
-}
 .icon-menu:before {
   content: "\e900";
-}
-.icon-about-me:before {
-  content: "\e901";
-}
-.icon-about-me:before {
-  content: "\e901";
-}
-.icon-css3:before {
-  content: "\e908";
 }
 .icon-buttom:before {
   content: "\e907";
