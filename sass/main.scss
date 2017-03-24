@@ -16,10 +16,17 @@ section{position: $absoluto; width: $porcentaje; height: $porcentaje; top: $vaci
 .margin{margin-top: 8%;}
 .margin2{margin-top: 15%;}
 h2{font-size: $letraGrande;}
-    .sombra{
+.sombra{
         background: rgba(0, 0, 0, 0.67);
         height: $porcentaje;
         width: $porcentaje;
+    }
+.icon-buttom{
+        font-size: 25px;
+        border-radius: $porcentaje;
+        background: $colorPrincipal; 
+        padding: 12px;
+        bottom: -90px;
     }
 /*----------------------------- Header -----------------------------*/
 header{
@@ -52,11 +59,8 @@ header{
     h3{font-size: $letraGrande;}
     .icon-buttom{
         font-size: $letraGrande;
-        border-radius: $porcentaje;
-        background: $colorPrincipal; 
         padding: 15px;
-        position: $relativo;
-        bottom: -90px;
+        position: relative;
     }
 }
 /*----------------------------- Sección About-Me -----------------------------*/
@@ -111,6 +115,9 @@ header{
     border-radius: 100px;
     transition: all 1s;
     }
+    .icon-buttom{
+        bottom: 1px;
+    }
 }
 /*----------------------------- Sección Proyects -----------------------------*/
 #proyects{
@@ -136,16 +143,16 @@ header{
     }
     p{margin-top: 30px;}
     .button{ 
-        width: 200px;
+        width: 180px;
         padding: 10px;
         margin: auto;
         background: $colorPrincipal;
         border-radius: 20px; 
-        font-size: 30px;
+        font-size: 25px;
         &:hover{
             background: $colorSecundario;
             color: $colorPrincipal;
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 }
