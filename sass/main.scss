@@ -1,6 +1,6 @@
 $colorPrincipal: #f04a54;
 $colorSecundario: white;
-$letraGrande: 40px;
+$letraGrande: 38px;
 $letraMediana: 20px;
 $centrar: center;
 $absoluto: absolute;
@@ -9,24 +9,21 @@ $porcentaje: 100%;
 $vacio:0;
 
 /*----------------------------- Generales -----------------------------*/
-*{text-align: $centrar; font-family: 'Kurale', serif;}
-section{position: $absoluto; width: $porcentaje; height: $porcentaje; top: $vacio; left: $vacio; display: none; opacity: $vacio;}
+*{text-align: $centrar; font-family: 'Kurale', serif; box-sizing: border-box;}
+section{position: $absoluto; width: $porcentaje; height: $porcentaje; display: none; opacity: $vacio;}
 .visible{opacity:1; display: table;}
 .content{display:table-cell; vertical-align: middle;}
-.margin{margin-top: 8%;}
-.margin2{margin-top: 15%;}
+.margin{margin-top: 5%;}
+.margin2{margin-top: 13%;}
 h2{font-size: $letraGrande;}
-.sombra{
-        background: rgba(0, 0, 0, 0.67);
-        height: $porcentaje;
-        width: $porcentaje;
-    }
+.logo, .logo2{display: none;}
+.sombra{background: rgba(0, 0, 0, 0.67); height: $porcentaje; width: $porcentaje; padding: 15px 0;}
 .icon-buttom{
-        font-size: 25px;
+        font-size: 28px;
         border-radius: $porcentaje;
         background: $colorPrincipal; 
-        padding: 12px;
-    }
+        padding: 13px;
+}
 /*----------------------------- Header -----------------------------*/
 header{
     position: $relativo; 
@@ -34,16 +31,11 @@ header{
     .navbar-inverse .navbar-nav>li>a{
         color: $colorSecundario;
     }
-    img{margin: 2%;}
-    .icon-menu{
-        border-radius: $porcentaje;
-        background: $colorPrincipal; 
-        padding: 5px;
-        font-size: $letraMediana;
-    }
     span{
-        font-size: 20px;
+        font-size: $letraMediana;
+        
     }
+    img{margin: 2%;}
     li:hover{
         background: $colorPrincipal;
     }
@@ -56,10 +48,8 @@ header{
     background-repeat: no-repeat;
     h1{font-size: 80px;}
     h3{font-size: $letraGrande;}
-    .icon-buttom{
-        font-size: $letraGrande;
-        padding: 15px;
-        margin: 30px;
+    .icon-buttom {
+        font-size: 45px;
         position: relative;
         bottom: -100px;
     }
@@ -82,11 +72,6 @@ header{
     background-image: url(../image/skills3.jpeg);
     background-size: cover;
     color: $colorSecundario;
-    .cuadro-skills{
-        background: rgba(0, 0, 0, 0.76);
-        width: $porcentaje;
-        height: $porcentaje;
-    }
     .cuadro{
         width: 160px; 
         height: 190px; 
@@ -116,9 +101,6 @@ header{
     border-radius: 100px;
     transition: all 1s;
     }
-    .icon-buttom{
-        bottom: 1px;
-    }
 }
 /*----------------------------- Sección Proyects -----------------------------*/
 #proyects{
@@ -141,8 +123,8 @@ header{
         font-size: 45px; 
         color: black; 
         background: white;
-        padding: 25px;
-        margin:  20px;
+        padding: 20px;
+        margin:  50px;
         border-radius: $porcentaje;
     }
     p{margin-top: 30px;}
@@ -156,7 +138,6 @@ header{
         &:hover{
             background: $colorSecundario;
             color: $colorPrincipal;
-            font-size: 30px;
         }
     }
 }
@@ -170,10 +151,14 @@ header{
     }
     header{
         img{
-            width: 200px; 
-            margin-top: 1%; 
             position: absolute; 
             left: 2%;}
+        }
+    .logo2{
+        width: 50px;
+    }
+    .logo{
+        width: 200px;
     }
     #inicio{
         h1{
@@ -181,6 +166,9 @@ header{
         }
         h3{
             font-size: $letraMediana;
+        }
+        .icon-buttom{
+            font-size: 25px;
         }
     }
     #skills{

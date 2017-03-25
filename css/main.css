@@ -2,14 +2,13 @@
 /*----------------------------- Generales -----------------------------*/
 * {
   text-align: center;
-  font-family: 'Kurale', serif; }
+  font-family: 'Kurale', serif;
+  box-sizing: border-box; }
 
 section {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
   display: none;
   opacity: 0; }
 
@@ -22,24 +21,28 @@ section {
   vertical-align: middle; }
 
 .margin {
-  margin-top: 8%; }
+  margin-top: 5%; }
 
 .margin2 {
-  margin-top: 15%; }
+  margin-top: 13%; }
 
 h2 {
-  font-size: 40px; }
+  font-size: 38px; }
+
+.logo, .logo2 {
+  display: none; }
 
 .sombra {
   background: rgba(0, 0, 0, 0.67);
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding: 15px 0; }
 
 .icon-buttom {
-  font-size: 25px;
+  font-size: 28px;
   border-radius: 100%;
   background: #f04a54;
-  padding: 12px; }
+  padding: 13px; }
 
 /*----------------------------- Header -----------------------------*/
 header {
@@ -47,15 +50,10 @@ header {
   z-index: 100; }
   header .navbar-inverse .navbar-nav > li > a {
     color: white; }
-  header img {
-    margin: 2%; }
-  header .icon-menu {
-    border-radius: 100%;
-    background: #f04a54;
-    padding: 5px;
-    font-size: 20px; }
   header span {
     font-size: 20px; }
+  header img {
+    margin: 2%; }
   header li:hover {
     background: #f04a54; }
 
@@ -68,11 +66,9 @@ header {
   #inicio h1 {
     font-size: 80px; }
   #inicio h3 {
-    font-size: 40px; }
+    font-size: 38px; }
   #inicio .icon-buttom {
-    font-size: 40px;
-    padding: 15px;
-    margin: 30px;
+    font-size: 45px;
     position: relative;
     bottom: -100px; }
 
@@ -97,10 +93,6 @@ header {
   background-image: url(../image/skills3.jpeg);
   background-size: cover;
   color: white; }
-  #skills .cuadro-skills {
-    background: rgba(0, 0, 0, 0.76);
-    width: 100%;
-    height: 100%; }
   #skills .cuadro {
     width: 160px;
     height: 190px;
@@ -126,8 +118,6 @@ header {
     position: absolute;
     border-radius: 100px;
     transition: all 1s; }
-  #skills .icon-buttom {
-    bottom: 1px; }
 
 /*----------------------------- Secci├│n Proyects -----------------------------*/
 #proyects {
@@ -149,8 +139,8 @@ header {
     font-size: 45px;
     color: black;
     background: white;
-    padding: 25px;
-    margin: 20px;
+    padding: 20px;
+    margin: 50px;
     border-radius: 100%; }
   #contact-me p {
     margin-top: 30px; }
@@ -163,8 +153,7 @@ header {
     font-size: 25px; }
     #contact-me .button:hover {
       background: white;
-      color: #f04a54;
-      font-size: 30px; }
+      color: #f04a54; }
 
 /*----------------------------- @media -----------------------------*/
 @media screen and (max-width: 768px) {
@@ -175,15 +164,21 @@ header {
     margin-top: 30%; }
 
   header img {
-    width: 200px;
-    margin-top: 1%;
     position: absolute;
     left: 2%; }
+
+  .logo2 {
+    width: 50px; }
+
+  .logo {
+    width: 200px; }
 
   #inicio h1 {
     font-size: 35px; }
   #inicio h3 {
     font-size: 20px; }
+  #inicio .icon-buttom {
+    font-size: 25px; }
 
   #skills .cuadro {
     width: 120px; }

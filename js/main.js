@@ -1,4 +1,5 @@
 function init(){
+    $(".logo2").show();
     crearProyects();
     crearProyects2();
     crearSkills();
@@ -12,18 +13,28 @@ function init(){
 
 //-- Funciones para cuando se de click pase a la siguiente pantalla ----
 function onClickInicio(){
+    $(".logo").hide();
+    $(".logo2").show();
 	nextSection('inicio');
 }
 function onClickAbautMe(){
+    $(".logo2").hide();
+    $(".logo").show();
 	nextSection('about-me');
 }
 function onClickSkills(){
+    $(".logo2").hide();
+    $(".logo").show();
 	nextSection('skills');
 }
 function onClickProyects(){
+    $(".logo2").hide();
+    $(".logo").show();
 	nextSection('proyects');
 }
 function onClickContactMe(){
+    $(".logo2").hide();
+    $(".logo").show();
 	nextSection('contact-me');
 }
 
@@ -40,7 +51,7 @@ function crearSkills(){
     for(var i in skills){
         var html= '<div class="col-md-2 col-xs-6">' +
                   '<div class="cuadro">' + 
-                  '<img src="' + skills[i].srcImg + '" class="img-responsive" alt="">' + 
+                  '<img src="' + skills[i].srcImg + '" class="img-responsive" width="50px" heigth="60px" alt="">' + 
                   '<p>' + skills[i].nombre + '</p>' + 
                   '<div class="myProgress">' + 
                   '<div id="myBar" data-per="70" class="myBar" style="width:' + skills[i].porcentaje + '"></div><br>' +
