@@ -1,8 +1,6 @@
 /*----------------------------- Sección Contact Me -----------------------------*/
 #contact-me{
-    background-image: url(../image/contact3.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include background(url(../image/contact3.gif));
     color: white;
     span{
         box-sizing: border-box;

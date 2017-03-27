@@ -29,6 +29,12 @@
             font-size: $letraMediana + 5px;
         }
     }
+//---- About Me ----
+    #about-me{
+        p{
+        font-size: $letraMediana - 5px;
+        }
+    }
 //---- Skills ----
     #skills{
         .cuadro{
