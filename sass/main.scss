@@ -40,7 +40,7 @@ header{
         background: $colorPrincipal; 
         padding: 8px;
     }
-    img{margin: 2%;}
+    img{margin: 3%;}
     li:hover{
         background: $colorPrincipal;
     }
@@ -80,10 +80,11 @@ header{
     .cuadro{
         width: 160px; 
         height: 190px; 
-        margin: 20px auto; 
+        margin: 20px; 
         border: 2px solid black; 
         background: rgba(0, 0, 0, 0.58); 
         border-radius: 20px;
+        display: inline-block;
     }
     img{
         width: 50px;

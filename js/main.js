@@ -45,7 +45,7 @@ function nextSection(_id){
 function crearSkills(){
     var lista = $(".lista-skills");
     for(var i in skills){
-        var html= '<div class="col-md-2 col-xs-6">' +
+        var html= 
                   '<div class="cuadro">' + 
                   '<img src="' + skills[i].srcImg + '" class="img-responsive" width="50px" heigth="60px" alt="">' + 
                   '<p>' + skills[i].nombre + '</p>' + 
@@ -53,8 +53,7 @@ function crearSkills(){
                   '<div id="myBar" data-per="70" class="myBar" style="width:' + skills[i].porcentaje + '"></div><br>' +
                   '<span>' + skills[i].porcentaje + '</span>' + 
                   '</div><!--cierre de myProgress-->' + 
-                  '</div><!--cierre de cuadro-->' +
-                  '</div><!--cierre de col-md-2-->'  
+                  '</div><!--cierre de cuadro-->'  
         
         lista.append(html); 
     }
@@ -87,3 +86,4 @@ function crearProyects2(){
         lista.append(html); 
     }
 }
+//---'<div class="col-md-2 col-xs-6">' +  +'</div><!--cierre de col-md-2-->'
