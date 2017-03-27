@@ -1,0 +1,5 @@
+@mixin background($fondo1){
+    background: $fondo1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

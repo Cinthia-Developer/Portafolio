@@ -20,13 +20,13 @@
 //---- Inicio ----
     #inicio{
         h1{
-            font-size: 50px;
+            font-size: $letraGrande + 12px;
         }
         h3{
             font-size: $letraMediana;
         }
         .icon-buttom{
-            font-size: 25px;
+            font-size: $letraMediana + 5px;
         }
     }
 //---- Skills ----
@@ -38,7 +38,7 @@
 //---- Contáctame ----
     #contact-me{
         span{
-            font-size: 30px;
+            font-size: $letraMediana + 10px;
             padding: 15px;
             margin: 10px;
         }

@@ -1,9 +1,7 @@
 /*----------------------------- Sección inicio -----------------------------*/
 #inicio{
     color: $colorSecundario;
-    background-image: url(../image/contact3.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include background(url(../image/api.png));
     h1{
         font-size: 80px;
     }
@@ -11,8 +9,8 @@
         font-size: $letraGrande;
     }
     .icon-buttom{
-        font-size: 45px;
-        position: relative;
+        font-size: $letraMediana;
+        position: $relativo;
         bottom: -100px;
     }
 }
