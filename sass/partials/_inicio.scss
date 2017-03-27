@@ -1,7 +1,7 @@
 /*----------------------------- Sección inicio -----------------------------*/
 #inicio{
+    @include background(url(../image/contact3.gif));
     color: $colorSecundario;
-    @include background(url(../image/api.png));
     h1{
         font-size: 80px;
     }
@@ -9,7 +9,8 @@
         font-size: $letraGrande;
     }
     .icon-buttom{
-        font-size: $letraMediana;
+        padding: 15px;
+        font-size: $letraGrande; 
         position: $relativo;
         bottom: -100px;
     }

@@ -1,7 +1,6 @@
 /*----------------------------- Sección Skills -----------------------------*/
 #skills{
-    background-image: url(../image/skills3.jpeg);
-    background-size: cover;
+    @include background(url(../image/skills3.jpeg));
     color: $colorSecundario;
     .cuadro{
         width: 160px; 
