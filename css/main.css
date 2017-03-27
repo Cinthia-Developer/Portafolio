@@ -68,10 +68,9 @@ header {
   #inicio h3 {
     font-size: 38px; }
   #inicio .icon-buttom {
-    padding: 15px;
     font-size: 38px;
     position: relative;
-    bottom: -100px; }
+    bottom: -150px; }
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me {
@@ -177,6 +176,9 @@ header {
     font-size: 20px; }
   #inicio .icon-buttom {
     font-size: 25px; }
+
+  #about-me p {
+    font-size: 15px; }
 
   #skills .cuadro {
     width: 120px; }

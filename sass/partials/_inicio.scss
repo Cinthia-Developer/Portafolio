@@ -2,6 +2,7 @@
 #inicio{
     @include background(url(../image/contact3.gif));
     color: $colorSecundario;
+
     h1{
         font-size: 80px;
     }
@@ -9,9 +10,8 @@
         font-size: $letraGrande;
     }
     .icon-buttom{
-        padding: 15px;
         font-size: $letraGrande; 
         position: $relativo;
-        bottom: -100px;
+        bottom: -150px;
     }
 }
