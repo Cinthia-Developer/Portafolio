@@ -48,7 +48,7 @@ header{
 /*----------------------------- Sección inicio -----------------------------*/
 #inicio{
     color: $colorSecundario;
-    background-image: url(../image/banner.jpg);
+    background-image: url(../image/contact3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     h1{font-size: 80px;}
@@ -61,16 +61,13 @@ header{
 }
 /*----------------------------- Sección About-Me -----------------------------*/
 #about-me{
-    background-image: url(../image/aboutme.jpg);
+    background-image: url(../image/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     font-size: $letraMediana;
-    img{ margin: auto; width: 380px; height: 450px;}
+    img{ margin: auto; width: 380px; height: 450px; border-radius: 50px;}
     .right, .left{background: rgba(255, 255, 255, 0);}
-    .carousel{
-        border: 1px solid $colorPrincipal;
-    }
 }
 /*----------------------------- Sección Skills -----------------------------*/
 #skills{
@@ -110,14 +107,14 @@ header{
 }
 /*----------------------------- Sección Proyects -----------------------------*/
 #proyects{
-    background-image: url(../image/aboutme.jpg);
+    background-image: url(../image/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: $colorSecundario;
-    .margenes{
+.margenes{
         margin-top: 30px;
     }
-}  
+}
 /*----------------------------- Sección Contact Me -----------------------------*/
 #contact-me{
     background-image: url(../image/contact3.gif);

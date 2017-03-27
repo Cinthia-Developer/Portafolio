@@ -63,7 +63,7 @@ header {
 /*----------------------------- Secci├│n inicio -----------------------------*/
 #inicio {
   color: white;
-  background-image: url(../image/banner.jpg);
+  background-image: url(../image/contact3.gif);
   background-size: cover;
   background-repeat: no-repeat; }
   #inicio h1 {
@@ -77,7 +77,7 @@ header {
 
 /*----------------------------- Secci├│n About-Me -----------------------------*/
 #about-me {
-  background-image: url(../image/aboutme.jpg);
+  background-image: url(../image/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -85,11 +85,10 @@ header {
   #about-me img {
     margin: auto;
     width: 380px;
-    height: 450px; }
+    height: 450px;
+    border-radius: 50px; }
   #about-me .right, #about-me .left {
     background: rgba(255, 255, 255, 0); }
-  #about-me .carousel {
-    border: 1px solid #f04a54; }
 
 /*----------------------------- Secci├│n Skills -----------------------------*/
 #skills {
@@ -125,7 +124,7 @@ header {
 
 /*----------------------------- Secci├│n Proyects -----------------------------*/
 #proyects {
-  background-image: url(../image/aboutme.jpg);
+  background-image: url(../image/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white; }

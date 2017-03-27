@@ -67,7 +67,7 @@ function crearProyects(){
                   '<a href="' + proyects[i].name + '">' +
                   '<img src="' +  proyects[i].image + '" width="90%" heigth="60px" alt="">'+
                   '</a>' +
-                  '</div><!--cierre de col-md-4-->'   
+                  '</div><!--cierre de col-md-4-->'  
         
         lista.append(html); 
     }
