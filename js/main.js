@@ -1,5 +1,5 @@
 function init(){
-    $(".logo2").show();
+    $("header").hide();
     crearProyects();
     crearProyects2();
     crearSkills();
@@ -13,28 +13,23 @@ function init(){
 
 //-- Funciones para cuando se de click pase a la siguiente pantalla ----
 function onClickInicio(){
-    $(".logo").hide();
-    $(".logo2").show();
+    $("header").hide();
 	nextSection('inicio');
 }
 function onClickAbautMe(){
-    $(".logo2").hide();
-    $(".logo").show();
+    $("header").show()
 	nextSection('about-me');
 }
 function onClickSkills(){
-    $(".logo2").hide();
-    $(".logo").show();
+    $("header").show();
 	nextSection('skills');
 }
 function onClickProyects(){
-    $(".logo2").hide();
-    $(".logo").show();
+    $("header").show();
 	nextSection('proyects');
 }
 function onClickContactMe(){
-    $(".logo2").hide();
-    $(".logo").show();
+    $("header").show();
 	nextSection('contact-me');
 }
 
@@ -45,6 +40,7 @@ function nextSection(_id){
     idNextSection.addClass('visible');
     currentSection = idNextSection;
 }
+
 //------- Función que crea la sección de Skills -------
 function crearSkills(){
     var lista = $(".lista-skills");
@@ -77,6 +73,7 @@ function crearProyects(){
         lista.append(html); 
     }
 }
+
 //------- Función que crea la sección de Proyectos -------
 function crearProyects2(){
     var lista = $(".lista-proyects2");
@@ -90,4 +87,3 @@ function crearProyects2(){
         lista.append(html); 
     }
 }
-//---

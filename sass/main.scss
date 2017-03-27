@@ -16,7 +16,6 @@ section{position: $absoluto; width: $porcentaje; height: $porcentaje; display: n
 .margin{margin-top: 5%;}
 .margin2{margin-top: 13%;}
 h2{font-size: $letraGrande;}
-.logo, .logo2{display: none;}
 .sombra{background: rgba(0, 0, 0, 0.67); height: $porcentaje; width: $porcentaje; padding: 15px 0;}
 .icon-buttom{
         font-size: 28px;
@@ -26,6 +25,7 @@ h2{font-size: $letraGrande;}
 }
 /*----------------------------- Header -----------------------------*/
 header{
+    display: none;
     position: $relativo; 
     z-index:100;
     .navbar-inverse .navbar-nav>li>a{

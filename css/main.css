@@ -29,9 +29,6 @@ section {
 h2 {
   font-size: 38px; }
 
-.logo, .logo2 {
-  display: none; }
-
 .sombra {
   background: rgba(0, 0, 0, 0.67);
   height: 100%;
@@ -46,6 +43,7 @@ h2 {
 
 /*----------------------------- Header -----------------------------*/
 header {
+  display: none;
   position: relative;
   z-index: 100; }
   header .navbar-inverse .navbar-nav > li > a {
