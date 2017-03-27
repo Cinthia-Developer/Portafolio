@@ -81,7 +81,7 @@ var proyects = [
 var proyects2 = [
     {
          "image":"image/larepublica.png",
-         "name":"...."
+         "name":"https://cinthia-mashiel.github.io/La-republica/."
      },
      {
          "image":"image/app.png",
