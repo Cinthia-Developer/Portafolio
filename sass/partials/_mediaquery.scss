@@ -1,0 +1,46 @@
+/*----------------------------- @media -----------------------------*/
+@media screen and (max-width:768px){
+    
+    .margin{
+        margin-top: 15%;
+    }
+    .margin2{
+        margin-top: 30%;
+    }
+//---- Header ----
+    header{
+        img{
+            position: absolute; 
+            left: 2%;
+        }
+        .logo{
+            width: 200px;
+        }
+    }
+//---- Inicio ----
+    #inicio{
+        h1{
+            font-size: 50px;
+        }
+        h3{
+            font-size: $letraMediana;
+        }
+        .icon-buttom{
+            font-size: 25px;
+        }
+    }
+//---- Skills ----
+    #skills{
+        .cuadro{
+            width: 120px;
+        }
+    }
+//---- Contáctame ----
+    #contact-me{
+        span{
+            font-size: 30px;
+            padding: 15px;
+            margin: 10px;
+        }
+    }
+}

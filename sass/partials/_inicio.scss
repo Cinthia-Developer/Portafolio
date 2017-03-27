@@ -1,0 +1,18 @@
+/*----------------------------- Sección inicio -----------------------------*/
+#inicio{
+    color: $colorSecundario;
+    background-image: url(../image/contact3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+        font-size: 80px;
+    }
+    h3{
+        font-size: $letraGrande;
+    }
+    .icon-buttom{
+        font-size: 45px;
+        position: relative;
+        bottom: -100px;
+    }
+}

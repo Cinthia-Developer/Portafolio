@@ -1,0 +1,23 @@
+/*----------------------------- Header -----------------------------*/
+header{
+    display: none;
+    position: $relativo; 
+    z-index: 100;
+    span{
+        font-size: $letraMediana;
+    }
+    .navbar-inverse .navbar-nav>li>a{
+        color: $colorSecundario;
+    }
+    .icon-menu{
+        border-radius: $porcentaje;
+        background: $colorPrincipal; 
+        padding: 8px;
+    }
+    img{
+        margin: 3%;
+    }
+    li:hover{
+        background: $colorPrincipal;
+    }
+}

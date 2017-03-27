@@ -1,0 +1,31 @@
+/*----------------------------- Sección Contact Me -----------------------------*/
+#contact-me{
+    background-image: url(../image/contact3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    span{
+        box-sizing: border-box;
+        font-size: 45px; 
+        color: black; 
+        background: $colorSecundario;
+        padding: 20px;
+        margin:  50px;
+        border-radius: $porcentaje;
+    }
+    p{
+        margin-top: 30px;
+    }
+    .button{ 
+        width: 180px;
+        padding: 10px;
+        margin: auto;
+        background: $colorPrincipal;
+        border-radius: 20px; 
+        font-size: 25px;
+        &:hover{
+            background: $colorSecundario;
+            color: $colorPrincipal;
+        }
+    }
+}
