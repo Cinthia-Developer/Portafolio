@@ -33,7 +33,12 @@ header{
     }
     span{
         font-size: $letraMediana;
-        
+    }
+    .icon-menu{
+        font-size: $letraMediana;
+        border-radius: $porcentaje;
+        background: $colorPrincipal; 
+        padding: 8px;
     }
     img{margin: 2%;}
     li:hover{

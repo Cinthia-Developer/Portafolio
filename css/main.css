@@ -52,6 +52,11 @@ header {
     color: white; }
   header span {
     font-size: 20px; }
+  header .icon-menu {
+    font-size: 20px;
+    border-radius: 100%;
+    background: #f04a54;
+    padding: 8px; }
   header img {
     margin: 2%; }
   header li:hover {
