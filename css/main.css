@@ -5,6 +5,9 @@
   font-family: 'Kurale', serif;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none; }
+
 section {
   position: absolute;
   width: 100%;
