@@ -2,52 +2,67 @@ var skills = [
      {
          "srcImg":"image/html.png",
          "nombre":"HTML",
-         "porcentaje":"80%"
+         "porcentaje":"90%"
      },
      {
          "srcImg":"image/css.png",
          "nombre":"CSS",
-         "porcentaje":"85%"
+         "porcentaje":"95%"
      },
      {
          "srcImg":"image/js.png",
          "nombre":"JAVASCRIPT",
-         "porcentaje":"65%"
+         "porcentaje":"80%"
      },
      {
          "srcImg":"image/jquery.png",
          "nombre":"JQUERY",
-         "porcentaje":"75%"
+         "porcentaje":"85%"
      },
      {
          "srcImg":"image/sass.svg",
          "nombre":"SASS",
-         "porcentaje":"35%"
+         "porcentaje":"80%"
      },
      {
          "srcImg":"image/bootstrap.png",
          "nombre":"BOOTSTRAP",
+         "porcentaje":"85%"
+     },
+     {
+         "srcImg":"image/gulp.png",
+         "nombre":"GULP",
          "porcentaje":"70%"
+     },
+     {
+         "srcImg":"image/node.png",
+         "nombre":"NODE.JS",
+         "porcentaje":"40%"
+     },
+     {
+         "srcImg":"image/ionic.png",
+         "nombre":"IONIC",
+         "porcentaje":"45%"
+     },
+     {
+         "srcImg":"image/api.png",
+         "nombre":"API",
+         "porcentaje":"75%"
      },
      {
          "srcImg":"image/github.png",
          "nombre":"GITHUB",
-         "porcentaje":"70%"
+         "porcentaje":"80%"
      },
      {
          "srcImg":"image/trello.png",
          "nombre":"TRELLO",
-         "porcentaje":"75%"
+         "porcentaje":"85%"
      },
      {
          "srcImg":"image/responsive.png",
          "nombre":"RESPONSIVE",
-         "porcentaje":"85%"
-     },
-     {
-         "srcImg":"image/jquery.png",
-         "nombre":"ANONIMO",
-         "porcentaje":"50%"
+         "porcentaje":"90%"
      }
 ]
 
@@ -92,3 +107,19 @@ var proyects2 = [
          "name":"http://codepen.io/Mashiel/full/pRyJdj/"
      }
 ]
+
+/* 
+     {
+         "image":"image/portafolio.png",
+         "name":"https://cinthia-mashiel.github.io/Viendo-cajas2/"
+     },
+     {
+         "image":"image/code.png",
+         "name":"https://cinthia-mashiel.github.io/coder-girl/"
+     },
+     {
+         "image":"image/carrocomp.png",
+         "name":"https://cinthia-mashiel.github.io/Carrocomp-proyecto/"
+     }
+     
+*/

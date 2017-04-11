@@ -2,7 +2,7 @@
 #proyects{
     @include background(url(../image/banner.jpg));
     color: $colorSecundario;
-.margenes{
+    .margenes{
         margin-top: 30px;
     }
 }
