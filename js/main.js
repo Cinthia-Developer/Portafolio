@@ -86,4 +86,3 @@ function crearProyects2(){
         lista.append(html); 
     }
 }
-//---'<div class="col-md-2 col-xs-6">' +  +'</div><!--cierre de col-md-2-->'

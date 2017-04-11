@@ -45,6 +45,11 @@ var skills = [
          "porcentaje":"45%"
      },
      {
+         "srcImg":"image/api.png",
+         "nombre":"API",
+         "porcentaje":"75%"
+     },
+     {
          "srcImg":"image/github.png",
          "nombre":"GITHUB",
          "porcentaje":"80%"
@@ -102,3 +107,19 @@ var proyects2 = [
          "name":"http://codepen.io/Mashiel/full/pRyJdj/"
      }
 ]
+
+/* 
+     {
+         "image":"image/portafolio.png",
+         "name":"https://cinthia-mashiel.github.io/Viendo-cajas2/"
+     },
+     {
+         "image":"image/code.png",
+         "name":"https://cinthia-mashiel.github.io/coder-girl/"
+     },
+     {
+         "image":"image/carrocomp.png",
+         "name":"https://cinthia-mashiel.github.io/Carrocomp-proyecto/"
+     }
+     
+*/
