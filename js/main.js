@@ -69,7 +69,7 @@ function crearProyects(){
                   '</a>' +
                   '</div><!--cierre de col-md-4-->'  
         
-        lista.append(html); 
+        lista.append(html);
     }
 }
 
@@ -86,3 +86,20 @@ function crearProyects2(){
         lista.append(html); 
     }
 }
+
+//------- Para los contactos de celular y gmail -------
+$(".icon-mobile").on('click', function(){
+    swal({
+        title: "963928262",
+        imageUrl: "http://es.consumidoresunidos.org/wp-content/uploads/sites/7/2015/06/atencion-al-cliente-gratuito-canal-plus.jpg",
+        text: "Cinthia Mashiel"
+    });
+});
+
+$(".icon-mail").on('click', function(){
+    swal({
+        title: "cinthiachurata@gmail.com",
+        imageUrl: "http://www.canalgif.net/Gifs-animados/Informatica/Correo-electronico/Imagen-animada-Email-299.Gif",
+        text: "Cinthia Mashiel"
+    });
+});
